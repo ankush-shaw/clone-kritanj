@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mintlify | Intelligent Knowledge Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" data-header>
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Mintlify home">
+        <span class="brand-icon"></span>
+        <span>mintlify</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" data-menu>
+        <div class="nav-links">
+          <a href="#resources">Resources</a>
+          <a href="#documentation">Documentation</a>
+          <a href="#customers">Customers</a>
+          <a href="#blog">Blog</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+
+        <div class="nav-actions">
+          <a class="sales-link" href="#contact">Contact sales</a>
+          <a class="start-link" href="#start">Start for free</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <!-- These decorative layers recreate the large painted-sky feeling without using copied artwork. -->
+      <div class="sky-layer sky-streak streak-one"></div>
+      <div class="sky-layer sky-streak streak-two"></div>
+      <div class="cloud cloud-left"></div>
+      <div class="cloud cloud-left-small"></div>
+      <div class="cloud cloud-right"></div>
+      <div class="cloud cloud-bottom"></div>
+
+      <div class="hero-content reveal">
+        <a class="news-pill" href="#resources">
+          <span>NEW</span>
+          Workflows for self-updating knowledge management
+          <strong>›</strong>
+        </a>
+
+        <h1>The Intelligent<br />Knowledge Platform</h1>
+        <p>
+          Helping teams create and maintain world-class documentation built for
+          both humans and AI
+        </p>
+
+        <form class="signup-form" aria-label="Start for free form">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" placeholder="Email address" />
+          <button type="submit">Start now</button>
+        </form>
+      </div>
+
+      <div class="docs-window reveal" aria-label="Documentation preview">
+        <aside class="docs-sidebar">
+          <div class="preview-brand">
+            <span class="brand-icon small"></span>
+            <strong>mintlify</strong>
+          </div>
+          <a href="#start">✦ Ask Assistant</a>
+          <a class="active" href="#start">▣ Quickstart</a>
+          <a href="#start">⚙ Global Settings</a>
+          <a href="#start">◇ AI Search</a>
+        </aside>
+
+        <section class="docs-main">
+          <div class="docs-tabs">
+            <a class="active" href="#documentation">Guides</a>
+            <a href="#documentation">API Reference</a>
+            <a href="#documentation">Changelog</a>
+          </div>
+
+          <div class="docs-search">
+            <span>⌕ Search or ask</span>
+            <button type="button">✦ Ask AI</button>
+          </div>
+
+          <article class="guide-card">
+            <span>Getting Started</span>
+            <h2>Quickstart Guide</h2>
+            <p>Install the SDK, publish your first guide, and connect team knowledge in minutes.</p>
+            <div class="code-preview">
+              <code>npm create mintlify-docs</code>
+              <code>mintlify dev --open</code>
+            </div>
+          </article>
+
+          <aside class="on-page">
+            <span>☰ On this page</span>
+            <a href="#documentation">Introduction</a>
+            <a href="#documentation">Getting started</a>
+          </aside>
+        </section>
+      </div>
+    </section>
+
+    <section class="logo-section" aria-label="Customer logos">
+      <div class="logo-grid reveal">
+        <span class="logo-word anthropic">ANTHROPIC</span>
+        <span class="logo-word coinbase">coinbase</span>
+        <span class="logo-word microsoft"><i></i> Microsoft</span>
+        <span class="logo-word perplexity">✧ perplexity</span>
+        <span class="logo-word hubspot">HubSpot</span>
+        <span class="logo-word notion">▣ Notion</span>
+        <span class="logo-word paypal">PayPal</span>
+        <span class="logo-word lovable">◒ Lovable</span>
+      </div>
+    </section>
+
+    <section class="intro-section" id="resources">
+      <div class="section-heading reveal">
+        <h2>Built for the intelligence age</h2>
+        <p>
+          Integrate AI into every part of your docs lifecycle. Woven into how
+          your knowledge is written, maintained, and understood by both users and LLMs.
+        </p>
+      </div>
+
+      <div class="feature-row">
+        <article class="feature-panel reveal">
+          <small>LLMs.txt &amp; MCP</small>
+          <h3>Built for both people and AI</h3>
+          <p>
+            Ensure your product shows up in the AI workflows users already rely
+            on. We support llms.txt, MCP, and whatever comes next.
+          </p>
+          <div class="mini-browser">
+            <div></div>
+          </div>
+        </article>
+
+        <article class="feature-panel dark reveal">
+          <small>agent</small>
+          <h3>Self-updating knowledge management</h3>
+          <p>
+            Draft, edit, and maintain content with a context-aware agent. Move
+            faster and more consistently without the documentation debt.
+          </p>
+          <div class="assistant-bubble">
+            <span class="status-step">✓</span>
+            <span class="status-step">✓</span>
+            <span class="status-step">✦</span>
+            <span class="status-step ghost"></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="enterprise-section" id="documentation">
+      <div class="enterprise-wrap reveal">
+        <div>
+          <span>Enterprise reinvention</span>
+          <h2>Bring intelligence to enterprise knowledge</h2>
+          <p>
+            Modernize without a rebuild with professional services, reliable
+            migration support, security controls, and expert guidance.
+          </p>
+          <a href="#contact">Explore for enterprise</a>
+        </div>
+
+        <div class="enterprise-cards">
+          <article>
+            <h3>Build with partnership</h3>
+            <p>Dedicated migration support and guidance tailored to your stack.</p>
+          </article>
+          <article>
+            <h3>Compliance and access control</h3>
+            <p>SSO, audit logs, role-based permissions, and workspace governance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="customers-section" id="customers">
+      <div class="section-heading reveal">
+        <span>Loved by product teams</span>
+        <h2>From AI startups to enterprise platforms, teams scale knowledge with Mintlify.</h2>
+      </div>
+
+      <div class="story-grid">
+        <article class="story-card reveal">
+          <h3>How Arcbyte rebuilt their developer experience around AI-native docs.</h3>
+          <a href="#blog">Read story</a>
+        </article>
+        <article class="story-card reveal">
+          <h3>How Northstar reduced onboarding questions with guided documentation.</h3>
+          <a href="#blog">Read story</a>
+        </article>
+        <article class="story-card reveal">
+          <h3>How Cloudloop keeps fast-moving release notes accurate every week.</h3>
+          <a href="#blog">Read story</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-section" id="pricing">
+      <div class="cta-card reveal">
+        <h2>Make documentation your winning advantage</h2>
+        <p>Join the teams building clearer, faster, AI-ready knowledge today.</p>
+        <div>
+          <a class="primary-cta" href="#start">Get started for free</a>
+          <a class="secondary-cta" href="#contact">Get a demo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-grid">
+      <div>
+        <a class="brand footer-logo" href="#home">
+          <span class="brand-icon"></span>
+          <span>mintlify</span>
+        </a>
+        <p>Original portfolio clone-style layout inspired by modern documentation platforms.</p>
+      </div>
+      <div>
+        <h4>explore</h4>
+        <a href="#resources">Startups</a>
+        <a href="#documentation">Enterprise</a>
+        <a href="#pricing">Pricing</a>
+      </div>
+      <div>
+        <h4>resources</h4>
+        <a href="#customers">Customers</a>
+        <a href="#blog">Blog</a>
+        <a href="#resources">Guides</a>
+      </div>
+      <div>
+        <h4>documentation</h4>
+        <a href="#documentation">Getting Started</a>
+        <a href="#documentation">API Reference</a>
+        <a href="#documentation">Changelog</a>
+      </div>
+      <div>
+        <h4>legal</h4>
+        <a href="#contact">Privacy Policy</a>
+        <a href="#contact">Terms of Service</a>
+        <a href="#contact">Security</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>All systems normal</span>
+      <span>© 2026 Mintlify, Inc.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
